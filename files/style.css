@@ -462,6 +462,10 @@ a{
 #project5 {
   background-image: url(project5.png);
 }
+#project6 {
+  background-image: url(project6.png);
+  margin-left: 120px;
+}
 
 
 @media (max-width:1300px) {
@@ -505,6 +509,9 @@ a{
     margin-left: 0;
   }
   #project4 {
+    margin-left: 0;
+  }
+  #project6 {
     margin-left: 0;
   }
   .project-skill-container {
