@@ -322,7 +322,7 @@ a{
 .project-card {
   width: 90%;
   height: 550px;
-  background-image: url(./projects/project1.png);
+  /* background-image: url(./projects/project1.png); */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -446,25 +446,29 @@ a{
 }
 
 #project1 {
-  background-image: url(project1.png);
+  background-image: url(dateGain.png);
 }
+
 #project2 {
-  background-image: url(project2.png);
+  background-image: url(project1.png);
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(project3.png);
+  background-image: url(project2.png);
 }
 #project4 {
-  background-image: url(project4.png);
+  background-image: url(project3.png);
   margin-left: 120px;
 }
 #project5 {
-  background-image: url(project5.png);
+  background-image: url(project4.png);
 }
 #project6 {
-  background-image: url(project6.png);
+  background-image: url(project5.png);
   margin-left: 120px;
+}
+#project7 {
+  background-image: url(project6.png);
 }
 
 
@@ -505,6 +509,7 @@ a{
   .project-sub-heading {
     width: 100%;
   }
+
   #project2 {
     margin-left: 0;
   }
