@@ -368,13 +368,36 @@ a{
   z-index: 5;
   transition: all 0.4s;
 }
+
+.project-dategain {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  padding: 2em;
+  bottom: 20%;
+  position: absolute;
+  z-index: 5;
+  transition: all 0.4s;
+  width: auto;
+  max-width: 100%;
+}
 .project-content-left {
   left: 10%;
 }
 .project-content-right {
   right: 10%;
 }
+
+.project-content-dategain {
+  right:5%;
+}
+
+
 .project-card:hover .project-content {
+  scale: 1.1;
+}
+.project-card:hover .project-dategain {
   scale: 1.1;
 }
 .project-heading {
@@ -440,6 +463,15 @@ a{
   transition: all 0.2s;
   border-radius: 5px;
 }
+.dategain-skill-container {
+  max-width: 100%;
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
 
 .project-skill {
   width: 40px;
@@ -454,21 +486,25 @@ a{
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(project2.png);
+  background-image: url(bihar.jpg);
 }
 #project4 {
   background-image: url(project3.png);
   margin-left: 120px;
 }
 #project5 {
-  background-image: url(project4.png);
+  background-image: url(devAI.png);
 }
 #project6 {
-  background-image: url(project5.png);
+  background-image: url(project4.png);
   margin-left: 120px;
 }
 #project7 {
+  background-image: url(project5.png);
+}
+#project8 {
   background-image: url(project6.png);
+  margin-left: 120px;
 }
 
 
@@ -493,6 +529,13 @@ a{
     background-position: center;
   }
   .project-content {
+    scale: 0.5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .project-dategain {
     scale: 0.5;
     bottom: 0;
     left: 0;
@@ -529,6 +572,9 @@ a{
     display: none;
   }
   .project-card:hover .project-content {
+    scale: 0.55;
+  }
+  .project-card:hover .project-dategain {
     scale: 0.55;
   }
   .project-card .btn-group i{
